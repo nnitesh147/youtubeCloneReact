@@ -7,7 +7,7 @@ const options = {
     videoId: 'M7FIvfx5J10'
   },
   headers: {
-    'X-RapidAPI-Key': 'e714d27158msh0fcc3879018e74dp12649fjsn7143745607d9',
+    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
     'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
   }
 };
